@@ -31,7 +31,15 @@ Este é um projeto de análise de churn de clientes para uma empresa de telecomu
    pip install -r requirements.txt
    ```
 
-5. **Execute o dashboard**
+5. **Altere o Path no arquivo data_loading.py**
+   ```sh
+    contracts = pd.read_csv(r"PATH_ARQUIVO_CSV")
+    customers = pd.read_csv(r"PATH_ARQUIVO_CSV")
+    services = pd.read_csv(r"PATH_ARQUIVO_CSV")
+
+   ```
+
+6. **Execute o dashboard**
    ```sh
    streamlit run scripts/app.py
    ```

@@ -1,6 +1,7 @@
 import sys
 import os
 import streamlit as st
+import plotly as px
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, ".."))

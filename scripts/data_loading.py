@@ -1,8 +1,8 @@
 import pandas as pd
 
 def load_data():
-    contracts = pd.read_csv(r"C:\Users\User\Documents\cursos\python\DashboardBI\data\churn_contracts.csv")
-    customers = pd.read_csv(r"C:\Users\User\Documents\cursos\python\DashboardBI\data\churn_customers.csv")
-    services = pd.read_csv(r"C:\Users\User\Documents\cursos\python\DashboardBI\data\churn_services.csv")
+    contracts = pd.read_csv(r"PATH_ARQUIVO_CSV")
+    customers = pd.read_csv(r"PATH_ARQUIVO_CSV")
+    services = pd.read_csv(r"PATH_ARQUIVO_CSV")
 
     return contracts, customers, services
